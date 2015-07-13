@@ -1,6 +1,6 @@
 ![image_squidhome@2x.png](http://i.imgur.com/RIvu9.png)
 
-# Redis Sails/Waterline Adapter - With Sentinal Support (ioredis)
+# Redis Sails/Waterline Adapter - With Sentinel Support (ioredis)
 [![Build Status](https://travis-ci.org/Salakar/sails-ioredis.svg?branch=master)](https://travis-ci.org/Salakar/sails-ioredis)
 [![npm version](https://badge.fury.io/js/sails-ioredis.svg)](http://badge.fury.io/js/sails-ioredis)
 [![Dependency Status](https://david-dm.org/Salakar/sails-ioredis.svg)](https://david-dm.org/Salakar/sails-ioredis)
