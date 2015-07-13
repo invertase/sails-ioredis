@@ -1,0 +1,72 @@
+{
+  "name": "sails-ioredis",
+  "version": "0.1.0",
+  "description": "Redis adapter for waterline with sentinel support (ioredis)",
+  "main": "index.js",
+  "author": "salakar <mike.diarmid@gmail.com>",
+  "contributors": [
+    {
+      "name": "Matt McFarland",
+      "email": "matmcfarland@gmail.com"
+    },
+    {
+      "name": "Cody Stoltman",
+      "email": "particlebanana@gmail.com"
+    },
+    {
+      "name": "Greg Thornton",
+      "email": "xdissent@me.com"
+    },
+    {
+      "name": "Carlo DiCelico",
+      "email": "carlo@diceli.co"
+    },
+    {
+      "name": "Mike Diarmid",
+      "email": "mike.diarmid@gmail.com"
+    }
+  ],
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/salakar/sails-ioredis.git"
+  },
+  "keywords": [
+    "redis",
+    "ioredis",
+    "sentinel",
+    "orm",
+    "waterline",
+    "sails",
+    "sailsjs",
+    "sails.js"
+  ],
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "mocha": "*",
+    "waterline-adapter-tests": "~0.10.0",
+    "captains-log": "~0.11.1"
+  },
+  "dependencies": {
+    "async": "~1.2.0",
+    "ioredis": "~1.6.1",
+    "lodash": "~3.9.0",
+    "waterline-criteria": "~0.11.1",
+    "waterline-cursor": "~0.0.5",
+    "waterline-errors": "~0.10.0"
+  },
+  "waterlineAdapter": {
+    "waterlineVersion": "~0.10.0",
+    "interfaces": [
+      "semantic",
+      "queryable",
+      "associations"
+    ],
+    "features": [
+      "crossAdapter"
+    ]
+  }
+}
