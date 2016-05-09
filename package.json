@@ -1,6 +1,6 @@
 {
   "name": "sails-ioredis",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Redis adapter for waterline with sentinel support (ioredis)",
   "main": "index.js",
   "author": "salakar <mike.diarmid@gmail.com>",
